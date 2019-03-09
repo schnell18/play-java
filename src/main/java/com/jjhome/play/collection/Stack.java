@@ -1,6 +1,7 @@
 package com.jjhome.play.collection;
 
 import java.util.Arrays;
+import java.util.Collection;
 
 public class Stack<E> {
     private E[] elements;
@@ -16,6 +17,19 @@ public class Stack<E> {
         ensureCapacity();
         elements[size++] = e;
     }
+
+    public void pushAll(Iterable<? extends E> src) {
+        for (E e: src) {
+            push(e);
+        }
+    }
+
+    public void popAll(Collection<? super E> dst) {
+        while (!isEmpty()) {
+            dst.add(pop());
+        }
+    }
+
 
     public E pop() {
         if (size == 0) {
