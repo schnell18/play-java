@@ -2,7 +2,7 @@ package com.jjhome.play.collection;
 
 import java.util.Arrays;
 
-public class Stack {
+public class Stack<E> {
     private Object[] elements;
     private int size = 0;
     private static final  int DEFAULT_INIT_CAPACITY = 16;
@@ -11,16 +11,16 @@ public class Stack {
         elements = new Object[DEFAULT_INIT_CAPACITY];
     }
 
-    public void push(Object e) {
+    public void push(E e) {
         ensureCapacity();
         elements[size++] = e;
     }
 
-    public Object pop() {
+    public E pop() {
         if (size == 0) {
             throw new IllegalStateException("Empty stack");
         }
-        Object result = elements[--size];
+        @SuppressWarnings("unchecked") E result = (E) elements[--size];
         elements[size] = null;
         return result;
     }
