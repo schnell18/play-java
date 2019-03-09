@@ -3,12 +3,13 @@ package com.jjhome.play.collection;
 import java.util.Arrays;
 
 public class Stack<E> {
-    private Object[] elements;
+    private E[] elements;
     private int size = 0;
     private static final  int DEFAULT_INIT_CAPACITY = 16;
 
+    @SuppressWarnings("unchecked")
     public Stack() {
-        elements = new Object[DEFAULT_INIT_CAPACITY];
+        elements = (E[]) new Object[DEFAULT_INIT_CAPACITY];
     }
 
     public void push(E e) {
@@ -20,7 +21,7 @@ public class Stack<E> {
         if (size == 0) {
             throw new IllegalStateException("Empty stack");
         }
-        @SuppressWarnings("unchecked") E result = (E) elements[--size];
+        E result = elements[--size];
         elements[size] = null;
         return result;
     }
