@@ -1,5 +1,6 @@
+*.swp
+*.swo
 *.class
-*.jar
 *.bak
 *.log
 *.ipr
@@ -8,6 +9,7 @@
 *.png
 *.pdf
 *.iws
+gradle/
 .gradle/
 .vagrant/
 .idea/

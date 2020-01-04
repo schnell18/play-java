@@ -10,10 +10,14 @@
 *.xml        text
 *.sql        text
 *.csv        text
+*.js         text
+*.gradle     text
+gradlew      text
 README.md    text
 
 # Make cvc-env.sh unix style EOL
 *.sh eol=lf
+gradlew eol=lf
 # Make *.bat DOS style EOL
 *.bat eol=crlf
 

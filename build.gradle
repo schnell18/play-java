@@ -1,0 +1,11 @@
+allprojects {
+    apply plugin: 'java'
+    apply plugin: 'idea'
+    repositories {
+        mavenCentral()
+    }
+}
+
+subprojects {
+    version = '1.0'
+}

@@ -1,0 +1,13 @@
+dependencies {
+    compile 'commons-logging:commons-logging:1.2'
+    compile 'org.apache.commons:commons-lang3:3.3.2'
+    compile 'org.slf4j:slf4j-api:1.7.30'
+    compile 'ch.qos.logback:logback-classic:1.2.3'
+    compile 'ch.qos.logback:logback-core:1.2.3'
+    compile 'org.openjdk.jmh:jmh-core:1.11.3'
+    compile 'org.openjdk.jmh:jmh-generator-annprocess:1.11.3'
+    compile 'javax.el:javax.el-api:3.0.0'
+    compile files('lib/classmexer.jar')
+    compile files('lib/btrace-client.jar')
+    testCompile 'junit:junit:4.11'
+}

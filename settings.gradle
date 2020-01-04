@@ -1,0 +1,10 @@
+rootProject.name="play-java"
+
+include 'algorithm'
+// include 'basic'
+include 'clazz'
+include 'crypto'
+// include 'face-recognition'
+include 'pdf'
+include 'scripting'
+include 'validation'
