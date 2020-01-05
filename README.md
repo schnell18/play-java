@@ -19,6 +19,7 @@ Practise some basic Java programming topics like:
 | pdf              | manipulate PDF in java  |
 | scripting        | JSR223 scripting        |
 | validation       | JSR380 validation       |
+| flyway           | flyway schema mgmt demo |
 
 ## MemoryHog
 This example is to demonstrate the garbage collection internal. To see
