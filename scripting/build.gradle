@@ -4,5 +4,9 @@ dependencies {
     compile 'org.openjdk.jmh:jmh-generator-annprocess:1.11.3'
     compile 'javax.el:javax.el-api:3.0.0'
     compile 'org.codehaus.groovy:groovy-all:2.4.6'
+    compile 'org.jetbrains.kotlin:kotlin-compiler-embeddable:1.1.4-2'
+    compile 'org.jetbrains.kotlin:kotlin-script-util:1.1.4-2'
+    compile 'org.jetbrains.kotlin:kotlin-stdlib:1.1.4-2'
+    compile 'org.python:jython:2.7.0'
     testCompile 'junit:junit:4.11'
 }
