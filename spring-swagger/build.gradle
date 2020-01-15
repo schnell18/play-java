@@ -1,0 +1,24 @@
+plugins {
+	id 'org.springframework.boot' version '2.2.2.RELEASE'
+	id 'io.spring.dependency-management' version '1.0.8.RELEASE'
+	id 'java'
+}
+
+group = 'org.jjhome.spring.swagger'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '1.8'
+
+dependencies {
+	compile 'org.springframework.boot:spring-boot-starter-webflux'
+	compile 'org.springdoc:springdoc-openapi-core:1.1.44'
+	compile 'org.springdoc:springdoc-openapi-ui:1.1.44'
+	compile 'org.springdoc:springdoc-openapi-webflux-ui:1.1.44'
+	testCompile ('org.springframework.boot:spring-boot-starter-test') {
+		exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
+	}
+	testCompile 'io.projectreactor:reactor-test'
+}
+
+test {
+	useJUnitPlatform()
+}
