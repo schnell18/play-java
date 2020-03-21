@@ -11,3 +11,5 @@ include 'validation'
 include 'flyway'
 include 'spring-swagger'
 include 'curator'
+include 'lang'
+
