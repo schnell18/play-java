@@ -1,4 +1,5 @@
 {
+    "namespace": "org.home.avro",
     "type": "record",
     "name": "StringPair",
     "doc": "A pair of strings",
