@@ -1,0 +1,17 @@
+buildscript {
+    repositories {
+        maven {
+            url "https://plugins.gradle.org/m2/"
+        }
+    }
+    dependencies {
+        classpath "gradle.plugin.org.betterplugin:gradle-avro-plugin:0.19.2-SNAPSHOT"
+    }
+}
+
+apply plugin: "org.betterplugin.avro"
+
+dependencies {
+    compile 'org.apache.avro:avro:1.9.2'
+    testCompile 'junit:junit:4.12'
+}

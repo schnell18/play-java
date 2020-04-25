@@ -9,17 +9,18 @@ Practise some basic Java programming topics like:
 
 ## catalog
 
-| sub-project      | description             |
-|------------------|-------------------------|
-| algorithm        | various algorithms      |
-| basic            | some fundamental stuffs |
-| clazz            | class meta-programming  |
-| crypto           | crypto stuffs like AES  |
-| face-recognition | face-recognition        |
-| pdf              | manipulate PDF in java  |
-| scripting        | JSR223 scripting        |
-| validation       | JSR380 validation       |
-| flyway           | flyway schema mgmt demo |
+| sub-project      | description              |
+|------------------|--------------------------|
+| algorithm        | various algorithms       |
+| basic            | some fundamental stuffs  |
+| clazz            | class meta-programming   |
+| crypto           | crypto stuffs like AES   |
+| face-recognition | face-recognition         |
+| pdf              | manipulate PDF in java   |
+| scripting        | JSR223 scripting         |
+| validation       | JSR380 validation        |
+| flyway           | flyway schema mgmt demo  |
+| avro             | explore avro data format |
 
 ## MemoryHog
 This example is to demonstrate the garbage collection internal. To see

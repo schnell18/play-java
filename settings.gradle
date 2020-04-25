@@ -12,4 +12,5 @@ include 'flyway'
 include 'spring-swagger'
 include 'curator'
 include 'lang'
+include 'avro'
 
