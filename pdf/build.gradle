@@ -1,14 +1,14 @@
 
 dependencies {
-    compile 'org.ghost4j:ghost4j:1.0.1'
-    compile 'com.itextpdf:itextpdf:5.5.11'
-    compile 'com.itextpdf:itext-asian:5.2.0'
-    compile 'commons-logging:commons-logging:1.2'
-    compile 'org.apache.commons:commons-lang3:3.3.2'
-    compile 'org.apache.pdfbox:fontbox:2.0.6'
-    compile 'org.apache.pdfbox:pdfbox:2.0.6'
-    compile 'org.openjdk.jmh:jmh-core:1.11.3'
-    compile 'org.openjdk.jmh:jmh-generator-annprocess:1.11.3'
-    compile files('lib/pdfbox-2.0.7_fgz-SNAPSHOT.jar')
-    testCompile 'junit:junit:4.11'
+    implementation 'org.ghost4j:ghost4j:1.0.1'
+    implementation 'com.itextpdf:itextpdf:5.5.11'
+    implementation 'com.itextpdf:itext-asian:5.2.0'
+    implementation 'commons-logging:commons-logging:1.2'
+    implementation 'org.apache.commons:commons-lang3:3.3.2'
+    implementation 'org.apache.pdfbox:fontbox:2.0.6'
+    implementation 'org.apache.pdfbox:pdfbox:2.0.6'
+    implementation 'org.openjdk.jmh:jmh-core:1.11.3'
+    implementation 'org.openjdk.jmh:jmh-generator-annprocess:1.11.3'
+    implementation files('lib/pdfbox-2.0.7_fgz-SNAPSHOT.jar')
+    testImplementation 'junit:junit:4.11'
 }

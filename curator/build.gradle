@@ -1,6 +1,6 @@
 dependencies {
-    compile 'org.apache.curator:curator-client:3.3.0'
-    compile 'org.apache.curator:curator-framework:3.3.0'
-    compile 'org.apache.curator:curator-x-async:3.3.0'
-    testCompile 'junit:junit:4.11'
+    implementation 'org.apache.curator:curator-client:3.3.0'
+    implementation 'org.apache.curator:curator-framework:3.3.0'
+    implementation 'org.apache.curator:curator-x-async:3.3.0'
+    testImplementation 'junit:junit:4.11'
 }

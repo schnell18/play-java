@@ -1,0 +1,14 @@
+package demo;
+
+option java_package = "tk.tinkerit.demo";
+option java_outer_classname = "CustomerProtos";
+
+message Customer {
+  optional int64 id = 1;
+  required string firstName = 2;
+  required string lastName = 3;
+}
+
+message Customers {
+  repeated Customer customer = 1;
+}

@@ -9,14 +9,14 @@ version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '1.8'
 
 dependencies {
-	compile 'org.springframework.boot:spring-boot-starter-webflux'
-	compile 'org.springdoc:springdoc-openapi-core:1.1.44'
-	compile 'org.springdoc:springdoc-openapi-ui:1.1.44'
-	compile 'org.springdoc:springdoc-openapi-webflux-ui:1.1.44'
-	testCompile ('org.springframework.boot:spring-boot-starter-test') {
+	implementation 'org.springframework.boot:spring-boot-starter-webflux'
+	implementation 'org.springdoc:springdoc-openapi-core:1.1.44'
+	implementation 'org.springdoc:springdoc-openapi-ui:1.1.44'
+	implementation 'org.springdoc:springdoc-openapi-webflux-ui:1.1.44'
+	testImplementation ('org.springframework.boot:spring-boot-starter-test') {
 		exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
 	}
-	testCompile 'io.projectreactor:reactor-test'
+	testImplementation 'io.projectreactor:reactor-test'
 }
 
 test {

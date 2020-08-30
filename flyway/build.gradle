@@ -3,9 +3,9 @@ plugins {
 }
 
 dependencies {
-    compile 'mysql:mysql-connector-java:5.1.48'
+    implementation 'mysql:mysql-connector-java:5.1.48'
 
-    testCompile 'junit:junit:4.11'
+    testImplementation 'junit:junit:4.11'
 }
 
 flyway {

@@ -21,8 +21,8 @@ tasks.named("compileJava").configure {
     source(generateAvro)
 }
 dependencies {
-    compile 'org.apache.avro:avro:1.9.2'
-    testCompile 'junit:junit:4.12'
+    implementation 'org.apache.avro:avro:1.9.2'
+    testImplementation 'junit:junit:4.12'
 }
 
 sourceSets.main.java.srcDirs = ['build/generated/sources/avro/java/main','src/main/java']
