@@ -7,7 +7,7 @@ Practise some basic Java programming topics like:
 - Java Collection Framework
 - Algorithm
 
-## catalog
+## Catalog
 
 | sub-project      | description              |
 |------------------|--------------------------|
@@ -15,12 +15,16 @@ Practise some basic Java programming topics like:
 | basic            | some fundamental stuffs  |
 | clazz            | class meta-programming   |
 | crypto           | crypto stuffs like AES   |
-| face-recognition | face-recognition         |
 | pdf              | manipulate PDF in java   |
 | scripting        | JSR223 scripting         |
 | validation       | JSR380 validation        |
 | flyway           | flyway schema mgmt demo  |
 | avro             | explore avro data format |
+
+
+## Build
+
+This project uses gradle to build. The required version is 6.9.x.
 
 ## MemoryHog
 This example is to demonstrate the garbage collection internal. To see
@@ -40,3 +44,4 @@ java -cp build/classes/main    \
 pid=$(jcmd -l | grep org.home.hone.gc.MemoryHog | awk '{print $1}')
 jstat -gcutil $pid 250
 ~~~~
+

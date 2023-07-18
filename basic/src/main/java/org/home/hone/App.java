@@ -1,4 +1,4 @@
-package com.jjhome.play;
+package org.home.hone;
 
 /**
  * Hello world!

@@ -1,6 +1,7 @@
 # Introduction
 
 This project explores cloud-native application development w/ spring.
+Required protoc version is 23.4.
 
 ## Generate Python code
 

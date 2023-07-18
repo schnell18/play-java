@@ -5,8 +5,8 @@ import org.junit.Test;
 import java.util.Arrays;
 import java.util.List;
 
-import static com.jjhome.play.collection.ListUtils.swap;
-import static com.jjhome.play.collection.ListUtils.max;
+import static org.home.hone.collection.ListUtils.swap;
+import static org.home.hone.collection.ListUtils.max;
 import static org.junit.Assert.*;
 
 public class ListUtilsTest {

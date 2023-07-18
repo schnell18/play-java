@@ -1,4 +1,4 @@
-package com.jjhome.play.collection;
+package org.home.hone.collection;
 
 import java.util.List;
 
