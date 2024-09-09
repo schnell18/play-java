@@ -13,4 +13,5 @@ include 'curator'
 include 'lang'
 include 'avro'
 include 'protobuf'
+include 'int-attack'
 
