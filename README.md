@@ -21,24 +21,26 @@ Practise some basic Java programming topics like:
 | flyway              | flyway schema mgmt demo  |
 | avro                | explore avro data format |
 | int-attack          | Integer cache attack     |
+| hibernate           | Simple hibernate 6 demo  |
+| protobuf            | Simple protobuf demo     |
 
 
 ## Build
 
-This project uses gradle to build. The required version is 6.9.x.
+This project uses maven to build.
 
 ## MemoryHog
-This example is to demonstrate the garbage collection internal. To see
-this demo, launch the following command under to project root directory:
+
+This example is to demonstrate the garbage collection internal. To see this
+demo, launch the following command under the `basic` project's root directory:
 
 ~~~~bash
-java -cp build/classes/main    \
+cd basic
+mvn compile
+java -cp target/classes        \
      -Xms15M                   \
      -Xmx15M                   \
      -Xloggc:hog_gc.log        \
-     -XX:+UseGCLogFileRotation \
-     -XX:NumberOfGCLogFiles=5  \
-     -XX:GCLogFileSize=81920   \
      org.home.hone.gc.MemoryHog 1>/dev/null &
 
 # get the PID of MemoryHog program display live GC stat

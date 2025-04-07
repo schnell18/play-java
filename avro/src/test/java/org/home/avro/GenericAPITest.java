@@ -20,12 +20,9 @@ import org.apache.avro.generic.GenericDatumReader;
 import org.apache.avro.generic.GenericDatumWriter;
 import org.apache.avro.generic.GenericRecord;
 import org.apache.avro.io.*;
-import org.junit.After;
-import org.junit.Before;
 import org.junit.Test;
 
 import java.io.ByteArrayOutputStream;
-import java.rmi.server.ExportException;
 
 import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.*;
