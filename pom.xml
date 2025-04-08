@@ -51,5 +51,6 @@
     <module>pdf</module>
     <module>spring-swagger</module>
     <module>protobuf</module>
+    <module>flyway</module>
   </modules>
 </project>
