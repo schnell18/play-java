@@ -82,5 +82,6 @@
     <module>spring-swagger</module>
     <module>protobuf</module>
     <module>flyway</module>
+    <module>kafka-streams</module>
   </modules>
 </project>
